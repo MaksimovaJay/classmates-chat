@@ -4,39 +4,38 @@
   padding: 2rem;
   text-align: center;
 }
+body {
+  background: url("https://oir.mobi/uploads/posts/2021-03/1616528591_6-p-fon-dlya-chata-6.jpg");
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.main{
+  border: 1px solid whitesmoke;
+  padding: 20px;
+  background: #4675a3;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+.bg-color{
+  background: #586091;
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.post-text {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.post-title {
+    color: #1c1d1f;
+}
+.post-text {
+  color: #1c1d1f
+}
+.blog-Title {
+  color: whitesmoke;
 }
 
-.card {
-  padding: 2em;
-}
+.bg-footer {
+  background: #586091;
 
-.read-the-docs {
-  color: #888;
 }
